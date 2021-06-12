@@ -6,12 +6,11 @@
 .oceanwp-about-me .oceanwp-about-me-social li:first-child {margin-left: 0;}
 .oceanwp-about-me .oceanwp-about-me-social li a {display: inline-block;font-size: 14px;text-align: center;width: 40px;height: 40px;line-height: 40px;border-radius: 50%;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li a, .oceanwp-about-me .oceanwp-about-me-social.style-color li a:hover {color: #fff;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li a .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-color li a:hover .owp-icon use {stroke: #fff;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.facebook a {background-color: #37589b;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.facebook a:hover {background-color: #4e7ddd;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.twitter a {background-color: #46d4fe;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.twitter a:hover {background-color: #7ee1fe;}
-.oceanwp-about-me .oceanwp-about-me-social.style-color li.google-plus a {background-color: #de5a49;}
-.oceanwp-about-me .oceanwp-about-me-social.style-color li.google-plus a:hover {background-color: #fc7a69;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.instagram a {background-color: #5996c7;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.instagram a:hover {background-color: #69b4f0;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.linkedin a {background-color: #419cca;}
@@ -20,15 +19,82 @@
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.pinterest a:hover {background-color: #f7555c;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.youtube a {background-color: #dd4646;}
 .oceanwp-about-me .oceanwp-about-me-social.style-color li.youtube a:hover {background-color: #ff6262;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.telegram a {background-color: #08c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.telegram a:hover {background-color: #0da4f0;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.twitch a {background-color: #6441a5;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.twitch a:hover {background-color: #702cee;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.line a {background-color: #00c300;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.line a:hover {background-color: #09f309;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.xing a {background-color: #006464;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.xing a:hover {background-color: #014646;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.vine a {background-color: #00bf8f;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.vine a:hover {background-color: #01906c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.vimeo a {background-color: #1ab7ea;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.vimeo a:hover {background-color: #1494bd;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.github a {background-color: #60b044;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.github a:hover {background-color: #4f9237;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.flickr a {background-color: #fa4086;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.flickr a:hover {background-color: #c63169;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.yelp a {background-color: #c41200;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.yelp a:hover {background-color: #940f01;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.tripadvisor a {background-color: #589442;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.tripadvisor a:hover {background-color: #426f32;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.rss a {background-color: #ff7900;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.rss a:hover {background-color: #d46603;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.medium a {background-color: #00ab6c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.medium a:hover {background-color: #03945f;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.vk a {background-color: #597ba5;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.vk a:hover {background-color: #486384;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.dribbble a {background-color: #ea4c89;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.dribbble a:hover {background-color: #c64174;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.tumblr a {background-color: #2c4762;}
+.oceanwp-about-me .oceanwp-about-me-social.style-color li.tumblr a:hover {background-color: #1d3042;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li a {color: #aaa;border: 1px solid #e9e9e9;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li a .owp-icon use {stroke: #aaa;}
 .oceanwp-about-me .oceanwp-about-me-social.style-dark li a {color: #929292;border: 1px solid #555;}
+.oceanwp-about-me .oceanwp-about-me-social.style-dark li a .owp-icon use {stroke: #929292;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li.facebook a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.facebook a:hover {color: #37589b;border-color: #37589b;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.facebook a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.facebook a:hover .owp-icon use {stroke: #37589b;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li.twitter a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.twitter a:hover {color: #46d4fe;border-color: #46d4fe;}
-.oceanwp-about-me .oceanwp-about-me-social.style-light li.google-plus a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.google-plus a:hover {color: #de5a49;border-color: #de5a49;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.twitter a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.twitter a:hover .owp-icon use {stroke: #46d4fe;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li.instagram a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.instagram a:hover {color: #5996c7;border-color: #5996c7;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.instagram a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.instagram a:hover .owp-icon use {stroke: #5996c7;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li.linkedin a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.linkedin a:hover {color: #419cca;border-color: #419cca;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.linkedin a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.linkedin a:hover .owp-icon use {stroke: #419cca;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li.pinterest a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.pinterest a:hover {color: #cb2027;border-color: #cb2027;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.pinterest a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.pinterest a:hover .owp-icon use {stroke: #cb2027;}
 .oceanwp-about-me .oceanwp-about-me-social.style-light li.youtube a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.youtube a:hover {color: #dd4646;border-color: #dd4646;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.youtube a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.youtube a:hover .owp-icon use {stroke: #dd4646;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.telegram a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.telegram a:hover {background-color: #08c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.telegram a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.telegram a:hover .owp-icon use {stroke: #08c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.twitch a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.twitch a:hover {background-color: #6441a5;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.twitch a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.twitch a:hover .owp-icon use {stroke: #6441a5;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.line a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.line a:hover {background-color: #00c300;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.line a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.line a:hover .owp-icon use {stroke: #00c300;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.xing a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.xing a:hover {background-color: #006464;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.xing a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.xing a:hover .owp-icon use {stroke: #006464;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.vine a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.vine a:hover {background-color: #00bf8f;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.vine a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.vine a:hover .owp-icon use {stroke: #00bf8f;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.vimeo a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.vimeo a:hover {background-color: #1ab7ea;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.vimeo a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.vimeo a:hover .owp-icon use {stroke: #1ab7ea;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.github a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.github a:hover {background-color: #60b044;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.github a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.github a:hover .owp-icon use {stroke: #60b044;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.flickr a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.flickr a:hover {background-color: #fa4086;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.flickr a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.flickr a:hover .owp-icon use {stroke: #fa4086;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.yelp a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.yelp a:hover {background-color: #c41200;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.yelp a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.yelp a:hover .owp-icon use {stroke: #c41200;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.tripadvisor a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.tripadvisor a:hover {background-color: #589442;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.tripadvisor a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.tripadvisor a:hover .owp-icon use {stroke: #589442;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.rss a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.rss a:hover {background-color: #ff7900;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.rss a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.rss a:hover .owp-icon use {stroke: #ff7900;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.medium a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.medium a:hover {background-color: #00ab6c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.medium a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.medium a:hover .owp-icon use {stroke: #00ab6c;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.vk a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.vk a:hover {background-color: #597ba5;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.vk a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.vk a:hover .owp-icon use {stroke: #597ba5;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.dribbble a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.dribbble a:hover {background-color: #ea4c89;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.dribbble a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.dribbble a:hover .owp-icon use {stroke: #ea4c89;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.tumblr a:hover, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.tumblr a:hover {background-color: #2c4762;}
+.oceanwp-about-me .oceanwp-about-me-social.style-light li.tumblr a:hover .owp-icon use, .oceanwp-about-me .oceanwp-about-me-social.style-dark li.tumblr a:hover .owp-icon use {stroke: #2c4762;}
 #wp-calendar {position: relative;width: 100%;font-size: 12px;border-collapse: collapse;border-spacing: 0;margin: 0;border: 0;}
 #wp-calendar caption {font-family: "Montserrat",sans-serif;font-size: 13px;font-weight: 400;padding-bottom: 10px;padding: 0 0 10px 0;background-color: transparent;color: #13aff0;border-width: 0 0 3px 0;border-style: solid;border-color: #e9e9e9;text-align: center;text-transform: uppercase;}
 #wp-calendar td, #wp-calendar th {text-align: center;}
@@ -54,12 +120,18 @@
 .contact-info-widget li.skype {display: inline-block;}
 .contact-info-widget li.skype a {display: inline-block;background-color: #0ca5de;color: #fff;font-size: 12px;font-weight: 600;line-height: 1;letter-spacing: 1px;text-transform: uppercase;padding: 12px 15px;}
 .contact-info-widget li.skype a:hover {background-color: #0581af;color: #fff;}
-.contact-info-widget.default i {float: left;width: 40px;height: 40px;line-height: 40px;border: 1px solid #e9e9e9;color: #13aff0;margin-right: 15px;text-align: center;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+.contact-info-widget.default i, .contact-info-widget.default .owp-icon {float: left;width: 40px;height: 40px;line-height: 40px;border: 1px solid #e9e9e9;color: #13aff0;margin-right: 15px;text-align: center;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+.contact-info-widget.default .owp-icon {padding: 10px;}
+.contact-info-widget.default .owp-icon use {stroke: #13aff0;}
 .contact-info-widget.default .oceanwp-info-wrap {padding-left: 55px;}
 .contact-info-widget.big-icons li {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-flex-wrap: wrap;flex-wrap: wrap;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;margin-bottom: 30px;}
 .contact-info-widget.big-icons li:last-child {margin-bottom: 0;}
-.contact-info-widget.big-icons i {float: left;width: 72px;height: 72px;line-height: 72px;font-size: 30px;margin-right: 20px;color: #13aff0;border: 1px solid #e9e9e9;text-align: center;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;transition: all .3s ease;}
+.contact-info-widget.big-icons i, .contact-info-widget.big-icons .owp-icon {float: left;width: 72px;height: 72px;line-height: 72px;font-size: 30px;margin-right: 20px;color: #13aff0;border: 1px solid #e9e9e9;text-align: center;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;transition: all .3s ease;}
+.contact-info-widget.big-icons .owp-icon {padding: 16px;}
+.contact-info-widget.big-icons .owp-icon use {stroke: #13aff0;}
 .contact-info-widget.big-icons li:hover i {background-color: #13aff0;color: #fff;border-color: #13aff0;}
+.contact-info-widget.big-icons li:hover .owp-icon {background-color: #13aff0;border-color: #13aff0;}
+.contact-info-widget.big-icons li:hover .owp-icon use {stroke: #fff;}
 .contact-info-widget.big-icons span.oceanwp-contact-title {display: block;font-size: 14px;}
 .contact-info-widget.big-icons li.skype a {width: 100%;text-align: center;}
 .contact-info-widget.no-icons li .oceanwp-contact-title {display: inline-block;min-width: 70px;font-weight: 600;}
@@ -188,61 +260,128 @@ body.woocommerce .oceanwp-newsletter-form-wrap button {padding-top: 0 !important
 .oceanwp-social-icons.float a:hover {transform: translateY(-3px);}
 .oceanwp-social-icons li {display: inline-block;margin: 3px;padding: 0;}
 .oceanwp-social-icons li a {display: block;padding: 0;text-align: center;}
+.oceanwp-social-icons li .owp-icon {vertical-align: inherit;}
 .oceanwp-social-icons.style-light li a, .oceanwp-social-icons.style-dark li a, .oceanwp-social-icons.style-colored li a {width: 55px;height: 55px;line-height: 55px;font-size: 16px;border-radius: 2px;}
 .oceanwp-social-icons.style-light li a {color: #bbb;border: 1px solid #e9e9e9;}
+.oceanwp-social-icons.style-light li a .owp-icon use {stroke: #bbb;}
 .oceanwp-social-icons.style-light li.oceanwp-twitter a:hover {color: #46d4fe !important;border-color: #46d4fe !important;}
+.oceanwp-social-icons.style-light li.oceanwp-twitter a:hover .owp-icon use {stroke: #46d4fe !important;}
 .oceanwp-social-icons.style-light li.oceanwp-facebook a:hover {color: #37589b !important;border-color: #37589b !important;}
-.oceanwp-social-icons.style-light li.oceanwp-google-plus a:hover {color: #de5a49 !important;border-color: #de5a49 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-facebook a:hover .owp-icon use {stroke: #37589b !important;}
 .oceanwp-social-icons.style-light li.oceanwp-pinterest a:hover {color: #cb2027 !important;border-color: #cb2027 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-pinterest a:hover .owp-icon use {stroke: #cb2027 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-dribbble a:hover {color: #ea4c89 !important;border-color: #ea4c89 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-dribbble a:hover .owp-icon use {stroke: #ea4c89 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-vk a:hover {color: #597ba5 !important;border-color: #597ba5 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-vk a:hover .owp-icon use {stroke: #597ba5 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-instagram a:hover {color: #3f729b !important;border-color: #3f729b !important;}
+.oceanwp-social-icons.style-light li.oceanwp-instagram a:hover .owp-icon use {stroke: #3f729b !important;}
 .oceanwp-social-icons.style-light li.oceanwp-linkedin a:hover {color: #39c !important;border-color: #39c !important;}
+.oceanwp-social-icons.style-light li.oceanwp-linkedin a:hover .owp-icon use {stroke: #39c !important;}
 .oceanwp-social-icons.style-light li.oceanwp-tumblr a:hover {color: #2c4762 !important;border-color: #2c4762 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-tumblr a:hover .owp-icon use {stroke: #2c4762 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-github a:hover {color: #60b044 !important;border-color: #60b044 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-github a:hover .owp-icon use {stroke: #60b044 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-flickr a:hover {color: #fa4086 !important;border-color: #fa4086 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-flickr a:hover .owp-icon use {stroke: #fa4086 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-skype a:hover {color: #00aff0 !important;border-color: #00aff0 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-skype a:hover .owp-icon use {stroke: #00aff0 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-trello a:hover {color: #0079bf !important;border-color: #0079bf !important;}
+.oceanwp-social-icons.style-light li.oceanwp-trello a:hover .owp-icon use {stroke: #0079bf !important;}
 .oceanwp-social-icons.style-light li.oceanwp-foursquare a:hover {color: #2d5be3 !important;border-color: #2d5be3 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-foursquare a:hover .owp-icon use {stroke: #2d5be3 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-youtube a:hover {color: #c4302b !important;border-color: #c4302b !important;}
+.oceanwp-social-icons.style-light li.oceanwp-youtube a:hover .owp-icon use {stroke: #c4302b !important;}
 .oceanwp-social-icons.style-light li.oceanwp-vimeo a:hover {color: #1ab7ea !important;border-color: #1ab7ea !important;}
+.oceanwp-social-icons.style-light li.oceanwp-vimeo a:hover .owp-icon use {stroke: #1ab7ea !important;}
 .oceanwp-social-icons.style-light li.oceanwp-vine a:hover {color: #00bf8f !important;border-color: #00bf8f !important;}
+.oceanwp-social-icons.style-light li.oceanwp-vine a:hover .owp-icon use {stroke: #00bf8f !important;}
 .oceanwp-social-icons.style-light li.oceanwp-xing a:hover {color: #006464 !important;border-color: #006464 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-xing a:hover .owp-icon use {stroke: #006464 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-yelp a:hover {color: #c41200 !important;border-color: #c41200 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-yelp a:hover .owp-icon use {stroke: #c41200 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-tripadvisor a:hover {color: #589442 !important;border-color: #589442 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-tripadvisor a:hover .owp-icon use {stroke: #589442 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-rss a:hover {color: #ff7900 !important;border-color: #ff7900 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-rss a:hover .owp-icon use {stroke: #ff7900 !important;}
 .oceanwp-social-icons.style-light li.oceanwp-email a:hover {color: #13aff0 !important;border-color: #13aff0 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-email a:hover .owp-icon use {stroke: #13aff0 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-telegram a:hover {color: #08c !important;border-color: #08c !important;}
+.oceanwp-social-icons.style-light li.oceanwp-telegram a:hover .owp-icon use {stroke: #08c !important;}
+.oceanwp-social-icons.style-light li.oceanwp-twitch a:hover {color: #6441a5 !important;border-color: #6441a5 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-twitch a:hover .owp-icon use {stroke: #6441a5 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-line a:hover {color: #00c300 !important;border-color: #00c300 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-line a:hover .owp-icon use {stroke: #00c300 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-medium a:hover {color: #00ab6c !important;border-color: #00ab6c !important;}
+.oceanwp-social-icons.style-light li.oceanwp-medium a:hover .owp-icon use {stroke: #00ab6c !important;}
+.oceanwp-social-icons.style-light li.oceanwp-tiktok a:hover {color: #000 !important;border-color: #000 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-tiktok a:hover .owp-icon use {stroke: #000 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-vk a:hover {color: #597ba5 !important;border-color: #597ba5 !important;}
+.oceanwp-social-icons.style-light li.oceanwp-vk a:hover .owp-icon use {stroke: #597ba5 !important;}
 .oceanwp-social-icons.style-dark li a {color: #333;border: 1px solid #333;}
+.oceanwp-social-icons.style-dark li a .owp-icon use {stroke: #333;}
 .oceanwp-social-icons.style-dark li.oceanwp-twitter a:hover {color: #46d4fe !important;border-color: #46d4fe !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-twitter a:hover .owp-icon use {stroke: #46d4fe !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-facebook a:hover {color: #37589b !important;border-color: #37589b !important;}
-.oceanwp-social-icons.style-dark li.oceanwp-google-plus a:hover {color: #de5a49 !important;border-color: #de5a49 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-facebook a:hover .owp-icon use {stroke: #37589b !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-pinterest a:hover {color: #cb2027 !important;border-color: #cb2027 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-pinterest a:hover .owp-icon use {stroke: #cb2027 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-dribbble a:hover {color: #ea4c89 !important;border-color: #ea4c89 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-dribbble a:hover .owp-icon use {stroke: #ea4c89 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-vk a:hover {color: #597ba5 !important;border-color: #597ba5 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-vk a:hover .owp-icon use {stroke: #597ba5 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-instagram a:hover {color: #3f729b !important;border-color: #3f729b !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-instagram a:hover .owp-icon use {stroke: #3f729b !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-linkedin a:hover {color: #39c !important;border-color: #39c !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-linkedin a:hover .owp-icon use {stroke: #39c !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-tumblr a:hover {color: #2c4762 !important;border-color: #2c4762 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-tumblr a:hover .owp-icon use {stroke: #2c4762 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-github a:hover {color: #60b044 !important;border-color: #60b044 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-github a:hover .owp-icon use {stroke: #60b044 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-flickr a:hover {color: #fa4086 !important;border-color: #fa4086 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-flickr a:hover .owp-icon use {stroke: #fa4086 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-skype a:hover {color: #00aff0 !important;border-color: #00aff0 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-skype a:hover .owp-icon use {stroke: #00aff0 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-trello a:hover {color: #0079bf !important;border-color: #0079bf !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-trello a:hover .owp-icon use {stroke: #0079bf !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-foursquare a:hover {color: #2d5be3 !important;border-color: #2d5be3 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-foursquare a:hover .owp-icon use {stroke: #2d5be3 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-youtube a:hover {color: #c4302b !important;border-color: #c4302b !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-youtube a:hover .owp-icon use {stroke: #c4302b !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-vimeo a:hover {color: #1ab7ea !important;border-color: #1ab7ea !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-vimeo a:hover .owp-icon use {stroke: #1ab7ea !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-vine a:hover {color: #00bf8f !important;border-color: #00bf8f !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-vine a:hover .owp-icon use {stroke: #00bf8f !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-xing a:hover {color: #006464 !important;border-color: #006464 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-xing a:hover .owp-icon use {stroke: #006464 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-yelp a:hover {color: #c41200 !important;border-color: #c41200 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-yelp a:hover .owp-icon use {stroke: #c41200 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-tripadvisor a:hover {color: #589442 !important;border-color: #589442 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-tripadvisor a:hover .owp-icon use {stroke: #589442 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-rss a:hover {color: #ff7900 !important;border-color: #ff7900 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-rss a:hover .owp-icon use {stroke: #ff7900 !important;}
 .oceanwp-social-icons.style-dark li.oceanwp-email a:hover {color: #13aff0 !important;border-color: #13aff0 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-email a:hover .owp-icon use {stroke: #13aff0 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-telegram a:hover {color: #08c !important;border-color: #08c !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-telegram a:hover .owp-icon use {stroke: #08c !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-twitch a:hover {color: #6441a5 !important;border-color: #6441a5 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-twitch a:hover .owp-icon use {stroke: #6441a5 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-line a:hover {color: #00c300 !important;border-color: #00c300 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-line a:hover .owp-icon use {stroke: #00c300 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-medium a:hover {color: #00ab6c !important;border-color: #00ab6c !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-medium a:hover .owp-icon use {stroke: #00ab6c !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-tiktok a:hover {color: #000 !important;border-color: #000 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-tiktok a:hover .owp-icon use {stroke: #000 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-vk a:hover {color: #597ba5 !important;border-color: #597ba5 !important;}
+.oceanwp-social-icons.style-dark li.oceanwp-vk a:hover .owp-icon use {stroke: #597ba5 !important;}
 .oceanwp-social-icons.style-colored li a {color: #fff;}
+.oceanwp-social-icons.style-colored li a .owp-icon use {stroke: #fff;}
 .oceanwp-social-icons.style-colored li a:hover {color: #fff;}
+.oceanwp-social-icons.style-colored li a:hover .owp-icon use {stroke: #fff;}
 .oceanwp-social-icons.style-colored li.oceanwp-twitter a {background-color: #46d4fe;}
 .oceanwp-social-icons.style-colored li.oceanwp-twitter a:hover {background-color: #39b4d8;}
 .oceanwp-social-icons.style-colored li.oceanwp-facebook a {background-color: #37589b;}
 .oceanwp-social-icons.style-colored li.oceanwp-facebook a:hover {background-color: #2d477c;}
-.oceanwp-social-icons.style-colored li.oceanwp-google-plus a {background-color: #de5a49;}
-.oceanwp-social-icons.style-colored li.oceanwp-google-plus a:hover {background-color: #bb4c3e;}
 .oceanwp-social-icons.style-colored li.oceanwp-pinterest a {background-color: #cb2027;}
 .oceanwp-social-icons.style-colored li.oceanwp-pinterest a:hover {background-color: #a91d23;}
 .oceanwp-social-icons.style-colored li.oceanwp-dribbble a {background-color: #ea4c89;}
@@ -281,6 +420,12 @@ body.woocommerce .oceanwp-newsletter-form-wrap button {padding-top: 0 !important
 .oceanwp-social-icons.style-colored li.oceanwp-rss a:hover {background-color: #d46603;}
 .oceanwp-social-icons.style-colored li.oceanwp-email a {background-color: #13aff0;}
 .oceanwp-social-icons.style-colored li.oceanwp-email a:hover {background-color: #0f8dc2;}
+.oceanwp-social-icons.style-colored li.oceanwp-telegram a:hover {background-color: #08c;}
+.oceanwp-social-icons.style-colored li.oceanwp-twitch a:hover {background-color: #6441a5;}
+.oceanwp-social-icons.style-colored li.oceanwp-line a:hover {background-color: #00c300;}
+.oceanwp-social-icons.style-colored li.oceanwp-medium a:hover {background-color: #00ab6c;}
+.oceanwp-social-icons.style-colored li.oceanwp-tiktok a:hover {background-color: #000;}
+.oceanwp-social-icons.style-colored li.oceanwp-vk a:hover {background-color: #597ba5;}
 .oceanwp-social-icons.style-simple li {margin: 0 6px;}
 .oceanwp-social-icons.style-simple li a {font-size: 16px;}
 .owp-social-share {margin: 0;padding: 0;list-style: none;}

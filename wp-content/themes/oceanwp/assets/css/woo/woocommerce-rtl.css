@@ -13,8 +13,7 @@
 .quantity .minus {border-left-width: 0;border-right-width: 1px;}
 .quantity .plus {border-right-width: 0;border-left-width: 1px;}
 .woocommerce #respond input#submit.loading:after, .woocommerce a.button.loading:after, .woocommerce button.button.loading:after, .woocommerce input.button.loading:after {margin-right: 6px;margin-left: 0;}
-.woocommerce ul.products li.product .added_to_cart:before {font-family: "simple-line-icons";content: "";margin-right: 6px;vertical-align: bottom;}
-.woocommerce ul.products li.product .added_to_cart:after {display: none;}
+.woocommerce ul.products li.product .added_to_cart:after {font-family: "simple-line-icons";content: "";margin-right: 6px;margin-left: 0;vertical-align: bottom;}
 .woocommerce .oceanwp-off-canvas-filter, .woocommerce .oceanwp-grid-list {float: right;margin: 0 0 0 20px;}
 .woocommerce .oceanwp-grid-list a:last-child {margin-right: 10px;margin-left: 0;}
 .woocommerce .woocommerce-ordering {float: right;}

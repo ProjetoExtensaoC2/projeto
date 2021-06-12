@@ -49,12 +49,12 @@ form.oceanwp-searchform button {display: block;position: absolute;top: 50%;right
 .screen-reader-text:focus {background-color: #f1f1f1;border-radius: 3px;box-shadow: 0 0 2px 2px rgba(0,0,0,.6);clip: auto !important;clip-path: none;color: #21759b;display: block;font-size: 14px;font-size: .875rem;font-weight: bold;height: auto;left: 5px;line-height: normal;padding: 15px 23px 14px;text-decoration: none;top: 5px;width: auto;z-index: 100000;}
 .no-display {border: 0;clip: rect(1px,1px,1px,1px);display: none;height: 1px;overflow: hidden;padding: 0;position: absolute;width: 1px;-webkit-clip-path: circle(1% at 1% 1%);clip-path: circle(1% at 1% 1%);}
 .owp-icon {width: 14px;height: 14px;vertical-align: text-bottom;}
-#owp-svg-icons path, #owp-svg-icons rect, #owp-svg-icons circle, #owp-svg-icons line, #owp-svg-icons polygon, #owp-svg-icons polyline {stroke: inherit;}
-.owp-icon use {stroke: #2d3e50;}
+#owp-svg-icons path, #owp-svg-icons rect, #owp-svg-icons circle, #owp-svg-icons line, #owp-svg-icons polygon, #owp-svg-icons polyline {stroke: inherit;fill: none;}
+.owp-icon use {stroke: #333;}
 ::selection {color: #fff;background: #333;text-shadow: none;}
 ::-moz-selection {color: #fff;background: #333;text-shadow: none;}
-@media only screen and (min-width: 768px) and (max-width: 959px) {body .oceanwp-row .span_1_of_4.col-3.col, body .oceanwp-row .span_1_of_4.col.product:nth-child(2n+3) {margin-left: 0;clear: both;}
-	body .oceanwp-row .span_1_of_4.col, body .oceanwp-isotope-grid .span_1_of_4.col {width: 50%;}}
+@media only screen and (min-width: 768px) and (max-width: 959px) {body .oceanwp-row .span_1_of_4.col-3.col {margin-left: 0;clear: both;}
+	body .oceanwp-row .span_1_of_4.col:not(.product), body .oceanwp-isotope-grid .span_1_of_4.col {width: 50%;}}
 @media only screen and (max-width: 480px) {.col {width: 100%;margin-left: 0;margin-right: 0;margin-bottom: 30px;}}
 html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
 body {margin: 0;}
@@ -189,7 +189,7 @@ body.separate-blog.separate-layout .blog-entry.grid-entry .thumbnail {margin: 0;
 	body.boxed-layout #wrap {width: auto !important;}
 	.boxed-layout #top-bar-social.top-bar-right {right: auto;}
 	.boxed-layout #top-bar-social.top-bar-left {left: auto;}
-	.col:not(.slick-slide), .blog-entry {width: 100% !important;margin-bottom: 25px;}}
+	.col:not(.swiper-slide), .blog-entry {width: 100% !important;margin-bottom: 25px;}}
 @media only screen and (max-width: 480px) {.boxed-layout #wrap .container {padding-left: 20px;padding-right: 20px;}}
 figure>img {display: block;margin: 0 auto;}
 img {max-width: 100%;height: auto;vertical-align: middle;}
@@ -199,16 +199,16 @@ img[class*="align"], img[class*="attachment-"] {height: auto;}
 .wp-caption-text {font-size: 14px;font-style: italic;color: #999;}
 .wp-smiley {margin-top: 0;margin-bottom: 0;padding: 0;border: 0;}
 embed, iframe, object {width: 100%;max-width: 100%;}
-.entry-content .alignwide {margin-left: -15px;width: calc(100% + 30px);max-width: calc(100% + 30px);}
+.entry-content .alignwide {margin-left: -3%;width: calc(100% + 6%);max-width: calc(100% + 6%);}
 .entry-content .alignfull {margin-left: -32px;width: calc(100% + 64px);max-width: calc(100% + 64px);}
-.page .entry .alignfull {margin-left: -5.6%;width: calc(100% + 11.1%);max-width: calc(100% + 11.1%);}
-.page .entry .alignwide {margin-left: -30px;width: calc(100% + 60px);max-width: calc(100% + 60px);}
-body.content-full-screen .entry-content .alignwide, body.content-full-screen .entry-content .alignfull {margin-left: 0;width: 100%;max-width: 100%;}
-body.single-post.content-max-width .entry-content .wp-block-embed .responsive-video-wrap {max-width: 100%;padding-left: 0;padding-right: 0;}
-body.single-post.content-max-width .entry-content .alignwide {margin: 0 auto;width: calc(90% + 32px);max-width: calc(90% + 32px);}
-body.single-post.content-max-width .entry-content .alignfull {margin-left: unset;width: 100%;max-width: 100%;}
-@media screen and (max-width: 959px) {.entry-content .alignwide {margin-left: -4%;width: calc(100% + 8%);max-width: calc(100% + 8%);}
-	.entry-content .alignfull {margin-left: -5.5%;width: calc(100% + 11%);max-width: calc(100% + 11%);}}
+.page .entry .alignfull {margin-left: -32px;width: calc(100% + 64px);max-width: calc(100% + 64px);}
+.page .entry .alignwide {margin-left: -3%;width: calc(100% + 6%);max-width: calc(100% + 6%);}
+body.content-full-screen .entry-content .alignwide, body.content-full-screen .entry-content .alignfull, body.content-full-screen .entry .alignwide, body.content-full-screen .entry .alignfull {margin-left: 0;width: 100%;max-width: 100%;}
+body.single-post.content-max-width .entry-content .wp-block-embed .responsive-video-wrap, body.page.content-max-width .entry .wp-block-embed .responsive-video-wrap {max-width: 100%;padding-left: 0;padding-right: 0;}
+body.single-post.content-max-width .entry-content .alignwide, body.page.content-max-width .entry .alignwide {margin: 0 auto;width: calc(90% + 32px);max-width: calc(90% + 32px);}
+body.single-post.content-max-width .entry-content .alignfull, body.page.content-max-width .entry .alignfull {margin-left: unset;width: 100%;max-width: 100%;}
+@media screen and (max-width: 959px) {.entry-content .alignfull {margin-left: -5.5%;width: calc(100% + 11%);max-width: calc(100% + 11%);}
+	.page .entry .alignfull {margin-left: -5.5%;width: calc(100% + 11%);max-width: calc(100% + 11%);}}
 .alignleft {float: left;margin-right: 1.5em;}
 .alignright {float: right;margin-left: 1.5em;}
 .aligncenter {text-align: center;margin: 0 auto;clear: both;}
@@ -264,6 +264,7 @@ del {vertical-align: baseline;text-decoration: line-through;color: #aaa;}
 code, kbd, pre, samp {font-size: 16px;}
 pre {margin: 20px 0;padding: 20px;color: #2080ad;background-color: #fafafa;}
 code {color: #2080ad;}
+.wp-block-quote {margin: 1.5em auto;padding-left: 20px;border-left-width: 3px;border-style: solid;border-left-color: #13aff0;}
 blockquote {font-style: italic;margin: 20px 40px;padding-left: 20px;border-left-width: 3px;border-style: solid;border-left-color: #13aff0;}
 blockquote cite {position: relative;display: block;padding: 10px 0 0 20px;color: #555;}
 blockquote cite:before {position: absolute;left: 0;content: "—";}
@@ -694,6 +695,7 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
 .dropdown-menu ul li.menu-item:last-child {border-bottom: 0;}
 .dropdown-menu ul li a.menu-link {display: block;position: relative;float: none;font-size: 12px;font-weight: 400;line-height: 1.2em;letter-spacing: .6px;padding: 12px 15px;text-transform: capitalize;}
 .dropdown-menu ul li a.menu-link:hover {background-color: #f8f8f8;color: #555;}
+.dropdown-menu ul li a.menu-link:hover .owp-icon use {stroke: #555;}
 .dropdown-menu ul li a.menu-link .nav-arrow {position: absolute;top: 50%;right: 15px;margin-top: -6.5px;padding: 0;}
 .dropdown-menu ul li a.menu-link i {position: relative;width: 20px;text-align: center;margin-right: 3px;}
 .dropdown-menu li a.menu-link i {padding-right: 5px;}
@@ -758,6 +760,10 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
 .oceanwp-social-menu ul li.oceanwp-email a:hover {color: #13aff0;}
 .oceanwp-social-menu ul li.oceanwp-tiktok a:hover {color: #000;}
 .oceanwp-social-menu ul li.oceanwp-medium a:hover {color: #00ab6c;}
+.oceanwp-social-menu ul li.oceanwp-telegram a:hover {color: #08c;}
+.oceanwp-social-menu ul li.oceanwp-twitch a:hover {color: #6441a5;}
+.oceanwp-social-menu ul li.oceanwp-line a:hover {color: #00c300;}
+.oceanwp-social-menu ul li.oceanwp-qq a:hover {color: #febf1b;}
 .oceanwp-social-menu .colored ul li a {position: relative;display: inline-block;font-size: 12px;color: #fff;line-height: 1;padding: 1em;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;border-radius: 50%;vertical-align: middle;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;-ms-transition: all .3s ease-out;-o-transition: all .3s ease-out;transition: all .3s ease-out;}
 .oceanwp-social-menu .colored ul li a:hover {color: #fff;}
 .oceanwp-social-menu .colored ul li a .owp-icon use {stroke: #fff;}
@@ -805,6 +811,14 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
 .oceanwp-social-menu .colored ul li.oceanwp-tiktok a:hover {background-color: #141414;}
 .oceanwp-social-menu .colored ul li.oceanwp-medium a {background-color: #00ab6c;}
 .oceanwp-social-menu .colored ul li.oceanwp-medium a:hover {background-color: #03945f;}
+.oceanwp-social-menu .colored ul li.oceanwp-telegram a {background-color: #08c;}
+.oceanwp-social-menu .colored ul li.oceanwp-telegram a:hover {background-color: #0da4f0;}
+.oceanwp-social-menu .colored ul li.oceanwp-twitch a {background-color: #6441a5;}
+.oceanwp-social-menu .colored ul li.oceanwp-twitch a:hover {background-color: #702cee;}
+.oceanwp-social-menu .colored ul li.oceanwp-line a {background-color: #00c300;}
+.oceanwp-social-menu .colored ul li.oceanwp-line a:hover {background-color: #09f309;}
+.oceanwp-social-menu .colored ul li.oceanwp-qq a {background-color: #febf1b;}
+.oceanwp-social-menu .colored ul li.oceanwp-qq a:hover {background-color: #db9f07;}
 .oceanwp-social-menu .minimal ul li a {position: relative;display: inline-block;font-size: 12px;background-color: transparent;color: #bbb;border: 1px solid #ccc;line-height: 1;padding: 1em;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;border-radius: 50%;vertical-align: middle;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;-ms-transition: all .3s ease-out;-o-transition: all .3s ease-out;transition: all .3s ease-out;}
 .oceanwp-social-menu .minimal ul li a:hover {background-color: transparent;}
 .oceanwp-social-menu .minimal ul li.oceanwp-twitter a:hover {color: #46d4fe;border-color: #46d4fe;}
@@ -829,6 +843,10 @@ body.vertical-header-style.vh-closed #site-header.vertical-header #site-navigati
 .oceanwp-social-menu .minimal ul li.oceanwp-email a:hover {color: #13aff0;border-color: #13aff0;}
 .oceanwp-social-menu .minimal ul li.oceanwp-tiktok a:hover {color: #000;border-color: #000;}
 .oceanwp-social-menu .minimal ul li.oceanwp-medium a:hover {color: #00ab6c;border-color: #00ab6c;}
+.oceanwp-social-menu .minimal ul li.oceanwp-telegram a:hover {color: #08c;border-color: #08c;}
+.oceanwp-social-menu .minimal ul li.oceanwp-twitch a:hover {color: #702cee;border-color: #702cee;}
+.oceanwp-social-menu .minimal ul li.oceanwp-line a:hover {color: #00c300;border-color: #00c300;}
+.oceanwp-social-menu .minimal ul li.oceanwp-qq a:hover {color: #febf1b;border-color: #febf1b;}
 .oceanwp-social-menu .dark ul li a {position: relative;display: inline-block;font-size: 12px;background-color: #333;color: #fff;line-height: 1;padding: 1em;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;border-radius: 50%;vertical-align: middle;-webkit-transition: all .3s ease-out;-moz-transition: all .3s ease-out;-ms-transition: all .3s ease-out;-o-transition: all .3s ease-out;transition: all .3s ease-out;}
 .oceanwp-social-menu .dark ul li a:hover {background-color: #000;color: #fff;}
 .oceanwp-social-menu .dark ul li a .owp-icon use {stroke: #fff;}
@@ -1059,6 +1077,7 @@ body.breadcrumbs-position-default .page-header-title {max-width: 70%;}
 .site-breadcrumbs ol li .breadcrumb-sep {margin: 0 6px;}
 .site-breadcrumbs .icon-home.has-text, .site-breadcrumbs .breadcrumb-home.has-icon {display: none;}
 .site-breadcrumbs .breadcrumb-title {margin-right: 5px;}
+.site-breadcrumbs .owp-icon {vertical-align: text-top;}
 .site-breadcrumbs.position-under-title, .centered-page-header .site-breadcrumbs, .centered-minimal-page-header .site-breadcrumbs {position: inherit;top: auto;right: auto;margin-top: 0;max-width: 100%;}
 .oceanwp-breadcrumb .site-breadcrumbs {position: relative;top: auto;left: auto;right: auto;max-width: 100%;margin-top: 0;}
 .background-image-page-header .site-breadcrumbs {display: block;position: inherit;max-width: 100%;margin-top: 20px;top: auto;right: auto;color: #fff;text-align: center;z-index: 2;}
@@ -1177,7 +1196,8 @@ ul.obem-none li:after {content: "";margin: 0 5px;}
 .single .entry-title {font-size: 34px;padding: 0 0 20px;margin: 0 0 15px;border-bottom: 1px solid #f1f1f1;letter-spacing: .6px;}
 .single-post.content-max-width #main #content-wrap {width: 100%;max-width: 100%;}
 .single-post.content-max-width .thumbnail, .single-post.content-max-width .entry-header, .single-post.content-max-width ul.meta, .single-post.content-max-width .entry-content h1, .single-post.content-max-width .entry-content h2, .single-post.content-max-width .entry-content h3, .single-post.content-max-width .entry-content h4, .single-post.content-max-width .entry-content h5, .single-post.content-max-width .entry-content h6, .single-post.content-max-width .entry-content blockquote, .single-post.content-max-width .entry-content p, .single-post.content-max-width .post-tags, .single-post.content-max-width .entry-share, .single-post.content-max-width nav.post-navigation, .single-post.content-max-width #author-bio, .single-post.content-max-width #related-posts, .single-post.content-max-width .comments-area {padding-left: 20px;padding-right: 20px;}
-.single-post.content-max-width .entry-header, .single-post.content-max-width ul.meta, .single-post.content-max-width .entry-content h1, .single-post.content-max-width .entry-content h2, .single-post.content-max-width .entry-content h3, .single-post.content-max-width .entry-content h4, .single-post.content-max-width .entry-content h5, .single-post.content-max-width .entry-content h6, .single-post.content-max-width .entry-content blockquote, .single-post.content-max-width .entry-content p, .single-post.content-max-width .wp-block-image, .single-post.content-max-width .wp-block-buttons, .single-post.content-max-width .wp-block-gallery, .single-post.content-max-width .wp-block-video, .single-post.content-max-width .wp-block-quote, .single-post.content-max-width .wp-block-text-columns, .single-post.content-max-width .wp-block-code, .single-post.content-max-width .entry-content ul, .single-post.content-max-width .entry-content ol, .single-post.content-max-width .wp-block-cover-text, .single-post.content-max-width .wp-block-columns, .single-post.content-max-width .wp-block-cover, .single-post.content-max-width .post-tags, .single-post.content-max-width .comments-area {margin: 1.5em auto;max-width: 700px;}
+.single-post.content-max-width .entry-header, .single-post.content-max-width ul.meta, .single-post.content-max-width .entry-content h1, .single-post.content-max-width .entry-content h2, .single-post.content-max-width .entry-content h3, .single-post.content-max-width .entry-content h4, .single-post.content-max-width .entry-content h5, .single-post.content-max-width .entry-content h6, .single-post.content-max-width .entry-content blockquote, .single-post.content-max-width .entry-content p, .single-post.content-max-width .wp-block-image, .single-post.content-max-width .wp-block-buttons, .single-post.content-max-width .wp-block-gallery, .single-post.content-max-width .wp-block-video, .single-post.content-max-width .wp-block-quote, .single-post.content-max-width .wp-block-text-columns, .single-post.content-max-width .wp-block-code, .single-post.content-max-width .entry-content ul, .single-post.content-max-width .entry-content ol, .single-post.content-max-width .wp-block-cover-text, .single-post.content-max-width .wp-block-cover, .single-post.content-max-width .wp-block-columns, .single-post.content-max-width .post-tags, .single-post.content-max-width .comments-area {margin: 1.5em auto;max-width: 700px;}
+.single-post.content-max-width .wp-block-columns.alignfull h1, .single-post.content-max-width .wp-block-columns.alignfull h2, .single-post.content-max-width .wp-block-columns.alignfull h3, .single-post.content-max-width .wp-block-columns.alignfull h4, .single-post.content-max-width .wp-block-columns.alignfull h5, .single-post.content-max-width .wp-block-columns.alignfull h6, .single-post.content-max-width .wp-block-columns.alignfull blockquote, .single-post.content-max-width .wp-block-columns.alignfull p, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-image, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-buttons, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-gallery, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-video, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-quote, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-text-columns, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-code, .single-post.content-max-width .wp-block-columns.alignfull ul, .single-post.content-max-width .wp-block-columns.alignfull ol, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-cover-text, .single-post.content-max-width .wp-block-columns.alignfull .wp-block-cover, .single-post.content-max-width .wp-block-columns.alignwide h1, .single-post.content-max-width .wp-block-columns.alignwide h2, .single-post.content-max-width .wp-block-columns.alignwide h3, .single-post.content-max-width .wp-block-columns.alignwide h4, .single-post.content-max-width .wp-block-columns.alignwide h5, .single-post.content-max-width .wp-block-columns.alignwide h6, .single-post.content-max-width .wp-block-columns.alignwide blockquote, .single-post.content-max-width .wp-block-columns.alignwide p, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-image, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-buttons, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-gallery, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-video, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-quote, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-text-columns, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-code, .single-post.content-max-width .wp-block-columns.alignwide ul, .single-post.content-max-width .wp-block-columns.alignwide ol, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-cover-text, .single-post.content-max-width .wp-block-columns.alignwide .wp-block-cover {max-width: 100%;}
 .single-post.content-max-width .entry-content ul, .single-post.content-max-width .entry-content ol {padding-left: 40px;padding-right: 40px;}
 .single-post.content-max-width .thumbnail {margin-top: 0;}
 .single-post.content-max-width .entry-header {margin-bottom: 0;text-align: center;}
@@ -1211,9 +1231,11 @@ ul.obem-none li:after {content: "";margin: 0 5px;}
 .single nav.post-navigation .nav-links i {font-size: 20px;line-height: 20px;}
 .single nav.post-navigation .nav-links .post-title {display: block;font-size: 16px;margin: 5px 0 0;}
 .single nav.post-navigation .nav-previous {float: left;width: 50%;text-align: left;border-right-width: 1px;border-style: solid;border-color: #f1f1f1;padding-right: 20px;}
-.single nav.post-navigation .nav-previous i {float: left;margin-right: 20px;}
+.single nav.post-navigation .nav-previous i, .single nav.post-navigation .nav-previous .owp-icon {float: left;margin-right: 20px;}
+.single nav.post-navigation .nav-previous .owp-icon {margin-top: 4px;}
 .single nav.post-navigation .nav-next {float: right;width: 50%;text-align: right;padding-left: 20px;}
-.single nav.post-navigation .nav-next i {float: right;margin-left: 20px;}
+.single nav.post-navigation .nav-next i, .single nav.post-navigation .nav-next .owp-icon {float: right;margin-left: 20px;}
+.single nav.post-navigation .nav-next .owp-icon {margin-top: 4px;}
 @media only screen and (max-width: 480px) {.single nav.post-navigation .nav-links .nav-previous, .single nav.post-navigation .nav-links .nav-next {float: none;width: 100%;padding: 0;}
 	.single nav.post-navigation .nav-links .nav-previous {border-right-width: 0;border-left-width: 0;}}
 #author-bio {position: relative;margin-top: 30px;padding-top: 30px;border-top-width: 1px;border-style: solid;border-color: #f1f1f1;}
@@ -1249,14 +1271,17 @@ time.published svg.owp-icon {width: 17px;height: 17px;margin-right: .7rem;}
 .oceanwp-widget-recent-posts-li:first-child, .widget_categories li:first-child, .widget_recent_entries li:first-child, .widget_archive li:first-child, .widget_recent_comments li:first-child, .widget-recent-posts-icons li:first-child, .site-footer .widget_nav_menu li:first-child {border-top: 1px solid #e9e9e9;}
 @media only screen and (max-width: 767px) {#main .widget_nav_menu li a:before {display: none;}}
 .hasCustomSelect {width: 100%;z-index: 2;}
-.theme-select {position: relative;border: 1px solid #ddd;color: #555;height: 34px;line-height: 32px;padding: 0 45px 0 15px;width: 100%;z-index: 1;}
+.theme-select {position: relative;border: 1px solid #ddd;color: #555;height: 34px;line-height: 32px;padding: 0 45px 0 15px;width: 100%;z-index: 1;overflow: hidden;}
 .theme-select:after {font-family: "Font Awesome 5 Free";content: "";position: absolute;right: 0;top: 0;display: block;height: 32px;width: 32px;font-size: 11px;font-weight: 600;color: #929292;border-left: 1px solid #ddd;text-align: center;}
 ul.page-numbers {display: inline-block;width: 100%;margin: 0;padding: 10px 0 0;list-style: none;text-align: right;clear: both;}
 ul.page-numbers li {display: inline-block;}
+ul.page-numbers li .owp-icon {vertical-align: inherit;}
 .page-links {text-align: center;margin: 15px 0;}
 .page-numbers a, .page-numbers span:not(.elementor-screen-only), .page-links span {position: relative;display: inline-block;min-width: 38px;min-width: 38px;line-height: 38px;margin: 0 8px 0 0;text-align: center;color: #555;border: 1px solid #e9e9e9;font-size: 18px;cursor: pointer;white-space: nowrap;-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius: 2px;border-radius: 2px;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;}
+.page-numbers a .owp-icon use {stroke: #555;}
 .page-numbers a span:not(.elementor-screen-only) {padding: 0;}
 .page-numbers a:hover, .page-links a:hover span, .page-numbers.current, .page-numbers.current:hover, .page-links>span {background-color: #f8f8f8;color: #333;}
+.page-numbers a:hover .owp-icon use {stroke: #555;}
 .elementor-pagination .page-numbers.current, .elementor-pagination .page-numbers.current:hover {background-color: transparent;}
 .pagination-center .oceanwp-pagination ul.page-numbers, .pagination-center .oceanwp-pagination .page-links, .pagination-center .woocommerce-pagination ul.page-numbers, .pagination-center .woocommerce-pagination .page-links {text-align: center;}
 .pagination-left .oceanwp-pagination ul.page-numbers, .pagination-left .oceanwp-pagination .page-links, .pagination-left .woocommerce-pagination ul.page-numbers, .pagination-left .woocommerce-pagination .page-links {text-align: left;}
@@ -1334,7 +1359,7 @@ span.required {position: relative;top: -4px;font-size: 10px;margin-left: 3px;col
 #footer-widgets .footer-box .widget-title {color: #fff;}
 #footer-widgets .footer-box a {color: #fff;}
 #footer-widgets .footer-box a:hover {color: #13aff0;}
-#footer-widgets #wp-calendar caption, #footer-widgets #wp-calendar th, #footer-widgets #wp-calendar tbody, #footer-widgets .contact-info-widget i, #footer-widgets .mailchimp-widget input[type="email"], #footer-widgets .posts-thumbnails-widget li, #footer-widgets .social-widget li a {border-color: #555;}
+#footer-widgets #wp-calendar caption, #footer-widgets #wp-calendar th, #footer-widgets #wp-calendar tbody, #footer-widgets .contact-info-widget i, #footer-widgets .contact-info-widget .owp-icon, #footer-widgets .mailchimp-widget input[type="email"], #footer-widgets .posts-thumbnails-widget li, #footer-widgets .social-widget li a {border-color: #555;}
 #footer-widgets .mailchimp-widget input[type="email"]:focus {border-color: #13aff0;}
 #footer-widgets .tagcloud a {background-color: #222;border-color: #333;}
 #footer-widgets .tagcloud a:hover {background-color: #444;color: #fff;border-color: #555;}
@@ -1382,6 +1407,8 @@ span.required {position: relative;top: -4px;font-size: 10px;margin-left: 3px;col
 #scroll-top>span {line-height: inherit;vertical-align: top;}
 #scroll-top:hover {background-color: rgba(0,0,0,.8);}
 #scroll-top.scroll-top-left {left: 20px;right: auto;}
+#scroll-top .owp-icon {vertical-align: initial;}
+#scroll-top .owp-icon use {stroke: #fff;}
 @media only screen and (max-width: 480px) {#scroll-top {right: 10px;bottom: 10px;width: 26px;height: 26px;line-height: 24px;font-size: 14px;}}
 .error404-content {position: relative;margin: 0 auto;text-align: center;}
 .error404-content .error-title {font-size: 46px;margin: 0 0 25px;}

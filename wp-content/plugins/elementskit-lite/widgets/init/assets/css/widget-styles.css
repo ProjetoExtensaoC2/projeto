@@ -1094,7 +1094,7 @@ a:hover>.a:hover\:met_scaley--200:hover {-webkit-transform: scaleY(2);transform:
 .ekit-wid-con a, .ekit-wid-con b, .ekit-wid-con div, .ekit-wid-con li, .ekit-wid-con ul {-webkit-tap-highlight-color: transparent;-webkit-tap-highlight-color: transparent;}
 .ekit-wid-con a:active, .ekit-wid-con a:focus, .ekit-wid-con input, .ekit-wid-con input:active, .ekit-wid-con input:focus, .ekit-wid-con input:hover, .ekit-wid-con textarea, .ekit-wid-con textarea:active, .ekit-wid-con textarea:focus, .ekit-wid-con textarea:hover {-moz-outline: none;outline: 0;}
 .ekit-wid-con embed, .ekit-wid-con img:not([draggable]), .ekit-wid-con object, .ekit-wid-con video {max-width: 100%;height: auto;}
-.ekit-wid-con a {text-decoration: none;outline: 0;}
+.ekit-wid-con a, .ekit-wid-con button {text-decoration: none;outline: 0;}
 .ekit-wid-con a:active, .ekit-wid-con a:focus, .ekit-wid-con a:hover, .ekit-wid-con a:visited {text-decoration: none;outline: 0;}
 .ekit-wid-con img {border: none;max-width: 100%;}
 .ekit-wid-con li, .ekit-wid-con ul {margin: 0;padding: 0;}
@@ -2532,6 +2532,7 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {margin-top: 45px;}
 .ekit-wid-con .ekit-team-style-default:hover::before {opacity: 1;}
 .ekit-wid-con .ekit-team-style-long_height_hover>img, .ekit-wid-con .ekit-team-style-overlay>img, .ekit-wid-con .ekit-team-style-overlay_details>img {display: block;}
 .ekit-wid-con .ekit-team-style-long_height_details {overflow: hidden;}
+.ekit-wid-con .ekit-team-style-hover_info .ekit-team-img {padding-top: 0 !important;}
 .ekit-wid-con .ekit-team-style-centered_style_details .profile-designation, .ekit-wid-con .ekit-team-style-long_height_details .profile-designation, .ekit-wid-con .ekit-team-style-long_height_details_hover .profile-designation {margin-bottom: 30px;}
 .ekit-wid-con .ekit-team-style-hover_info .profile-designation {margin-bottom: 25px;}
 .ekit-wid-con .ekit-team-style-overlay_circle_hover .profile-designation, .ekit-wid-con .ekit-team-style-overlay_details .profile-designation {margin-bottom: 12px;}
@@ -3667,3 +3668,17 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {margin-top: 45px;}
 .ekit-wid-con .fluentform-widget-custom-radio-checkbox input[type=checkbox]:checked::after, .ekit-wid-con .fluentform-widget-custom-radio-checkbox input[type=radio]:checked::after {position: static;-webkit-transform: inherit;transform: inherit;}
 .ekit-fluent-form-widget-step-header-yes .ff-el-progress-status {display: block !important;}
 .ekit-fluent-form-widget-step-progressbar-yes .ff-step-header {display: block !important;}
+.ekit-wid-con .ekit-btt__button {padding: 0;display: inline-block;text-align: center;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;position: relative;}
+.ekit-wid-con .ekit-btt__button:focus, .ekit-wid-con .ekit-btt__button:hover {text-decoration: none;}
+.ekit-wid-con .ekit-btt__button #canvas {width: 100%;height: 100%;top: 0;left: 0;position: absolute;border-radius: inherit;}
+.ekit-wid-con .ekit-btt__button.ekit-tt-show {-webkit-animation: ekit-btt-fadein .5s;animation: ekit-btt-fadein .5s;opacity: 1;}
+.ekit-wid-con .ekit-btt__button.yes:not(.ekit-tt-show) {-webkit-animation: ekit-btt-fadeOut .5s;animation: ekit-btt-fadeOut .5s;opacity: 0;}
+.ekit-wid-con .ekit-btt.progress_indicator .ekit-btt__button {border: 0 !important;border-radius: 50% !important;}
+@-webkit-keyframes ekit-btt-fadein {from {opacity: 0;-webkit-transform: translateY(80px);transform: translateY(80px);}
+	to {opacity: 1;-webkit-transform: translateY(0);transform: translateY(0);}}
+@keyframes ekit-btt-fadein {from {opacity: 0;-webkit-transform: translateY(80px);transform: translateY(80px);}
+	to {opacity: 1;-webkit-transform: translateY(0);transform: translateY(0);}}
+@-webkit-keyframes ekit-btt-fadeOut {from {opacity: 1;-webkit-transform: translateY(0);transform: translateY(0);}
+	to {opacity: 0;-webkit-transform: translateY(80px);transform: translateY(80px);}}
+@keyframes ekit-btt-fadeOut {from {opacity: 1;-webkit-transform: translateY(0);transform: translateY(0);}
+	to {opacity: 0;-webkit-transform: translateY(80px);transform: translateY(80px);}}

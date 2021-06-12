@@ -114,10 +114,12 @@ a.sidr-class-toggle-sidr-close i {padding-left: 8px;padding-right: 0;}
 .site-breadcrumbs ul li:after {content: "";}
 ul.meta li i {padding-left: 5px;padding-right: 0;}
 .single-post ul.meta li i {padding-left: 9px;padding-right: 0;}
+.blog-entry ul.meta li i, .blog-entry ul.meta li i, .single-post ul.meta li .owp-icon, .blog-entry ul.meta li .owp-icon {margin-right: 0;margin-left: 8px;}
 .blog-entry.thumbnail-entry .left-position .blog-entry-content {padding-right: 3em;padding-left: 0;}
 .blog-entry.thumbnail-entry .right-position .blog-entry-content {padding-left: 3em;padding-right: 0;}
 .blog-entry.thumbnail-entry .blog-entry-comments {float: right;}
 .blog-entry.thumbnail-entry .blog-entry-comments i {padding-left: 6px;padding-right: 0;}
+.blog-entry.thumbnail-entry .blog-entry-comments svg.owp-icon {margin-right: 0;margin-left: .7rem;}
 .blog-entry.thumbnail-entry .blog-entry-date {float: left;}
 .blog-entry.large-entry .blog-entry-readmore a i {margin-right: 8px;margin-left: 0;}
 .blog-entry .blog-entry-readmore a i:before {content: "";padding-right: 5px;}
@@ -128,6 +130,7 @@ ul.meta li i {padding-left: 5px;padding-right: 0;}
 .single-post nav.post-navigation .nav-links .nav-next {float: left;padding-right: 20px;padding-left: 0;text-align: left;}
 .single-post nav.post-navigation .nav-links .nav-next i {float: left;margin-right: 20px;margin-left: 0;}
 #related-posts time.published i {padding-left: 5px;}
+#related-posts time.published svg.owp-icon {margin-left: .7rem;margin-right: 0;}
 #author-bio .author-bio-avatar {margin-left: 30px;margin-right: 0;}
 #respond .comment-form-author, #respond .comment-form-email, #respond .comment-form-url {float: right;}
 #respond .comment-form-author {padding-left: 10px;padding-right: 0;}

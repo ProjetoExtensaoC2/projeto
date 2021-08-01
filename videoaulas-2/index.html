@@ -8,7 +8,9 @@
 
 
 <link rel="stylesheet" id="wp-block-library-css" href="https://projetoextensaoc2.github.io/projeto/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-block-library-theme-css" href="https://projetoextensaoc2.github.io/projeto/wp-includes/css/dist/block-library/theme.min.css" type="text/css" media="all">
+<style id="wp-block-library-theme-inline-css" type="text/css">
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
 <link rel="stylesheet" id="font-awesome-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="simple-line-icons-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="magnific-popup-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css" type="text/css" media="all">
@@ -32,7 +34,7 @@
 <link rel="stylesheet" id="ekit-responsive-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-menus-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/navmenu-addon-for-elementor/assets/css/frontend.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="oe-widgets-style-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/ocean-extra/assets/css/widgets.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=5.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=5.8" type="text/css" media="all">
 <script type="text/javascript" src="https://projetoextensaoc2.github.io/projeto/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://projetoextensaoc2.github.io/projeto/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <script type="text/javascript" src="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js" id="she-header-js"></script>
@@ -386,6 +388,161 @@
 		</div>
 							</div>
 		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a5023a7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a5023a7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-50f0dec" data-id="50f0dec" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-64716a8 elementor-widget elementor-widget-heading" data-id="64716a8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium">Aula 9 - Revisão de convergência de séries 
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a780b5d elementor-widget elementor-widget-heading" data-id="a780b5d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tutoria: Daniel Santos</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ecb200d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ecb200d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2e78449" data-id="2e78449" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b7c0eda elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="b7c0eda" data-element_type="widget" data-settings='{"youtube_url":"https:\/\/www.youtube.com\/watch?v=HquH6iQ-lMQ","start":1,"video_type":"youtube","controls":"yes","aspect_ratio":"169"}' data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1dc6d43 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1dc6d43" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-00e3d41" data-id="00e3d41" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c738cf8 elementor-widget elementor-widget-heading" data-id="c738cf8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium">Aula 10 - Exercícios (Resolução de EDO por Séries de Potências)
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f4f82e3 elementor-widget elementor-widget-heading" data-id="f4f82e3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-small">Tutoria: Jullia Macedo
+</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a9e5133 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a9e5133" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-799fc82" data-id="799fc82" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c246b61 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="c246b61" data-element_type="widget" data-settings='{"youtube_url":"https:\/\/www.youtube.com\/watch?v=Kuh6_BE61yM","video_type":"youtube","controls":"yes","aspect_ratio":"169"}' data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-53e3d36 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="53e3d36" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d5cd8f2" data-id="d5cd8f2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-48ad12c elementor-widget elementor-widget-heading" data-id="48ad12c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium">Aula 11 - Teste da Comparação, Comparação do Limite, Raiz, Razão e Série Alternada
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9117f82 elementor-widget elementor-widget-heading" data-id="9117f82" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-small">Tutoria: Carla Clementina</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-eef71df elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eef71df" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d340a54" data-id="d340a54" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b3f2a1a elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="b3f2a1a" data-element_type="widget" data-settings='{"youtube_url":"https:\/\/www.youtube.com\/watch?v=aukK3QLzv7k&list=PLq2Sv7PPjKaZp4LsW_86x9N9c1x35nZmR&index=8","video_type":"youtube","controls":"yes","aspect_ratio":"169"}' data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d8b87bb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d8b87bb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7d7a171" data-id="7d7a171" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c538746 elementor-widget elementor-widget-heading" data-id="c538746" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium">Aula 12 - Testes de convergência no Geogebra
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8e7115d elementor-widget elementor-widget-heading" data-id="8e7115d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-small">Tutoria: Daniel Santos</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-ca1c4d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca1c4d3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6057164" data-id="6057164" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8d8fb0c elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="8d8fb0c" data-element_type="widget" data-settings='{"youtube_url":"https:\/\/www.youtube.com\/watch?v=I8bTUGjiw5g","video_type":"youtube","controls":"yes","aspect_ratio":"169"}' data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8dd6f45 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8dd6f45" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a64feb2" data-id="a64feb2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b764500 elementor-widget elementor-widget-heading" data-id="b764500" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium">Aula 13 - Análise Gráfica de Séries</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4d08177 elementor-widget elementor-widget-heading" data-id="4d08177" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-small">Tutoria: Daniel Santos</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6ee7b19 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6ee7b19" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f803cef" data-id="f803cef" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3eb7ed5 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="3eb7ed5" data-element_type="widget" data-settings='{"youtube_url":"https:\/\/www.youtube.com\/watch?v=XuhHpd4rqOA","video_type":"youtube","controls":"yes","aspect_ratio":"169"}' data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
 						</div>
 					</div>
 		<script type="text/javascript" src="https://projetoextensaoc2.github.io/projeto/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js"></script>
@@ -425,7 +582,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script type="text/javascript" src="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/navmenu-addon-for-elementor/assets/js/modernizr.custom.js" id="elementor-menus-modernizer-js"></script>
 <script type="text/javascript" id="elementor-menus-frontend-js-extra">
 /* <![CDATA[ */
-var ElementorMenusFrontendConfig = {"ajaxurl":"https:\/\/projetoextensaoc2.github.io\/projeto\/wp-admin\/admin-ajax.php","nonce":"fe90d3accc"};
+var ElementorMenusFrontendConfig = {"ajaxurl":"https:\/\/projetoextensaoc2.github.io\/projeto\/wp-admin\/admin-ajax.php","nonce":"0d1c1c43c6"};
 var elementorScreenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
 var elementorSecondaryScreenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
 /* ]]> */

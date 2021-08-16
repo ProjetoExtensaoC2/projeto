@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html class="html" lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	
+
+	<title>EDO 2 ª ordem – UnB/DEX</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="dns-prefetch" href="//s.w.org">
+
+
+<link rel="stylesheet" id="wp-block-library-css" href="https://projetoextensaoc2.github.io/projeto/wp-includes/css/dist/block-library/style.min.css" media="all">
+<style id="wp-block-library-theme-inline-css">
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+</style>
+<link rel="stylesheet" id="font-awesome-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css" media="all">
+<link rel="stylesheet" id="simple-line-icons-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css" media="all">
+<link rel="stylesheet" id="oceanwp-style-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/css/style.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css" media="all">
+<link rel="stylesheet" id="ekit-widget-styles-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css" media="all">
+<link rel="stylesheet" id="ekit-responsive-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css" media="all">
+<link rel="stylesheet" id="elementor-menus-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/navmenu-addon-for-elementor/assets/css/frontend.min.css" media="all">
+<link rel="stylesheet" id="oe-widgets-style-css" href="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/ocean-extra/assets/css/widgets.css" media="all">
+<script src="https://projetoextensaoc2.github.io/projeto/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js" id="she-header-js"></script>
+
+
+
+
+
+
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css">
+/* Header CSS */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}
+</style></head>
+
+<body class="page-template-default page page-id-150 wp-embed-responsive has-navmenu has-megamenu oceanwp-theme dropdown-mobile default-breakpoint has-sidebar content-right-sidebar has-topbar has-breadcrumbs elementor-default elementor-kit-5" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+	
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+
+<div id="top-bar-wrap" class="clr">
+
+	<div id="top-bar" class="clr container has-no-content">
+
+		
+		<div id="top-bar-inner" class="clr">
+
+			
+
+		</div>
+
+		
+	</div>
+
+</div>
+
+
+			
+<header id="site-header" class="minimal-header clr" data-height="74" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+	
+					
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="https://schema.org/Brand">
+
+	
+	<div id="site-logo-inner" class="clr">
+
+						<a href="https://projetoextensaoc2.github.io/projeto/" rel="home" class="site-title site-logo-text">UnB/DEX</a>
+				
+	</div>
+
+	
+	
+</div>
+
+			<div id="site-navigation-wrap" class="clr">
+			
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="navigation">
+
+				<ul id="menu-menu-principal" class="main-menu dropdown-menu sf-menu"><li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-145"><a href="https://projetoextensaoc2.github.io/projeto/" class="menu-link"><span class="text-wrap">Início</span></a></li><li id="menu-item-437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-437"><a href="#" class="menu-link"><span class="text-wrap">Conteúdos<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-439"><a href="#" class="menu-link"><span class="text-wrap">Sequências<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-600"><a href="https://projetoextensaoc2.github.io/projeto/limite-e-convergencia-de-sequencia/" class="menu-link"><span class="text-wrap">Limite e Convergência de sequência</span></a></li>		<li id="menu-item-599" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-599"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas/" class="menu-link"><span class="text-wrap">Videoaulas</span></a></li>	</ul>
+</li>	<li id="menu-item-440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-440"><a href="#" class="menu-link"><span class="text-wrap">Séries<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-704"><a href="#" class="menu-link"><span class="text-wrap">Principais Testes de Convergência<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"><a href="https://projetoextensaoc2.github.io/projeto/teste-do-n-esimo-termo/" class="menu-link"><span class="text-wrap">Teste do N-ésimo Termo</span></a></li>			<li id="menu-item-643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-643"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-integral/" class="menu-link"><span class="text-wrap">Teste da Integral</span></a></li>			<li id="menu-item-642" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-642"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-comparacao/" class="menu-link"><span class="text-wrap">Teste da Comparação</span></a></li>			<li id="menu-item-639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-comparacao-do-limite/" class="menu-link"><span class="text-wrap">Teste da Comparação do Limite</span></a></li>			<li id="menu-item-641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-razao/" class="menu-link"><span class="text-wrap">Teste da Razão</span></a></li>			<li id="menu-item-640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-raiz/" class="menu-link"><span class="text-wrap">Teste da Raiz</span></a></li>			<li id="menu-item-638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-638"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-serie-alternada/" class="menu-link"><span class="text-wrap">Teste da Série Alternada</span></a></li>			<li id="menu-item-637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-convergencia-absoluta/" class="menu-link"><span class="text-wrap">Teste da Convergência Absoluta</span></a></li>		</ul>
+</li>		<li id="menu-item-705" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-705"><a href="#" class="menu-link"><span class="text-wrap">Séries de Potência<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-650"><a href="https://projetoextensaoc2.github.io/projeto/serie-de-taylor-2/" class="menu-link"><span class="text-wrap">Série de Taylor</span></a></li>			<li id="menu-item-651" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-651"><a href="https://projetoextensaoc2.github.io/projeto/serie-de-taylor/" class="menu-link"><span class="text-wrap">Série de Maclaurin</span></a></li>		</ul>
+</li>		<li id="menu-item-611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-611"><a href="https://projetoextensaoc2.github.io/projeto/resolucao-de-edo-por-serie/" class="menu-link"><span class="text-wrap">Resolução de EDO por série</span></a></li>		<li id="menu-item-610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-2/" class="menu-link"><span class="text-wrap">Videoaulas</span></a></li>	</ul>
+</li>	<li id="menu-item-674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-674"><a href="#" class="menu-link"><span class="text-wrap">EDO 1ª Ordem<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-703"><a href="https://projetoextensaoc2.github.io/projeto/separaveis/" class="menu-link"><span class="text-wrap">Separáveis</span></a></li>		<li id="menu-item-702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="https://projetoextensaoc2.github.io/projeto/lineares/" class="menu-link"><span class="text-wrap">Lineares</span></a></li>		<li id="menu-item-701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="https://projetoextensaoc2.github.io/projeto/bernoulli/" class="menu-link"><span class="text-wrap">Bernoulli</span></a></li>		<li id="menu-item-700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://projetoextensaoc2.github.io/projeto/exata/" class="menu-link"><span class="text-wrap">Exata</span></a></li>		<li id="menu-item-699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://projetoextensaoc2.github.io/projeto/substituicao/" class="menu-link"><span class="text-wrap">Substituição</span></a></li>		<li id="menu-item-698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-698"><a href="https://projetoextensaoc2.github.io/projeto/y-gax-bx/" class="menu-link"><span class="text-wrap">Y’ = G(Ax + Bx)</span></a></li>		<li id="menu-item-683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-4/" class="menu-link"><span class="text-wrap">Videoaulas</span></a></li>	</ul>
+</li>	<li id="menu-item-673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-673"><a href="#" class="menu-link"><span class="text-wrap">EDO 2ª Ordem<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-675"><a href="#" class="menu-link"><span class="text-wrap">Homogênea<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="https://projetoextensaoc2.github.io/projeto/resolucao-por-eq-caracteristica/" class="menu-link"><span class="text-wrap">Resolução por Eq. Característica</span></a></li>			<li id="menu-item-665" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="https://projetoextensaoc2.github.io/projeto/wronskiano/" class="menu-link"><span class="text-wrap">Wronskiano</span></a></li>		</ul>
+</li>		<li id="menu-item-676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-676"><a href="#" class="menu-link"><span class="text-wrap">Não Homogênea<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="https://projetoextensaoc2.github.io/projeto/coeficientes-indeterminados/" class="menu-link"><span class="text-wrap">Coeficientes indeterminados</span></a></li>			<li id="menu-item-679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679"><a href="https://projetoextensaoc2.github.io/projeto/variacao-de-parametros/" class="menu-link"><span class="text-wrap">Variação de parâmetros</span></a></li>		</ul>
+</li>		<li id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-3/" class="menu-link"><span class="text-wrap">Videoaulas</span></a></li>	</ul>
+</li>	<li id="menu-item-1184" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1184"><a href="#" class="menu-link"><span class="text-wrap">Transformada de Laplace<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1220"><a href="https://projetoextensaoc2.github.io/projeto/definicao-e-propriedades/" class="menu-link"><span class="text-wrap">Definição e Propriedades</span></a></li>		<li id="menu-item-1185" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1185"><a href="#" class="menu-link"><span class="text-wrap">Transformada Inversa de Laplace<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-1214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214"><a href="https://projetoextensaoc2.github.io/projeto/fracoes-parciais/" class="menu-link"><span class="text-wrap">Frações Parciais</span></a></li>		</ul>
+</li>		<li id="menu-item-1210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1210"><a href="https://projetoextensaoc2.github.io/projeto/pvi/" class="menu-link"><span class="text-wrap">PVI</span></a></li>		<li id="menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1207"><a href="https://projetoextensaoc2.github.io/projeto/funcoes-degrau-e-impulso/" class="menu-link"><span class="text-wrap">Funções Degrau e Impulso</span></a></li>		<li id="menu-item-1211" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1211"><a href="#" class="menu-link"><span class="text-wrap">Funções Periódicas<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+		<ul class="sub-menu">
+			<li id="menu-item-1208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1208"><a href="https://projetoextensaoc2.github.io/projeto/funcao-janela/" class="menu-link"><span class="text-wrap">Função Janela</span></a></li>			<li id="menu-item-1205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1205"><a href="https://projetoextensaoc2.github.io/projeto/delta-de-dirac/" class="menu-link"><span class="text-wrap">Delta de Dirac</span></a></li>			<li id="menu-item-1204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1204"><a href="https://projetoextensaoc2.github.io/projeto/transformada-de-funcoes-periodicas/" class="menu-link"><span class="text-wrap">Transformada de Funções Periódicas</span></a></li>			<li id="menu-item-1203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1203"><a href="https://projetoextensaoc2.github.io/projeto/convolucao/" class="menu-link"><span class="text-wrap">Convolução</span></a></li>		</ul>
+</li>		<li id="menu-item-1209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1209"><a href="https://projetoextensaoc2.github.io/projeto/sistema-de-laplace/" class="menu-link"><span class="text-wrap">Sistema de Laplace</span></a></li>		<li id="menu-item-1219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1219"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-5/" class="menu-link"><span class="text-wrap">Videoaulas</span></a></li>	</ul>
+</li>	<li id="menu-item-1362" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-1362"><a href="#" class="menu-link"><span class="text-wrap">Problemas Aplicados à Engenharia<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="https://projetoextensaoc2.github.io/projeto/mecanica/" class="menu-link"><span class="text-wrap">Mecânica</span></a></li>		<li id="menu-item-1363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1363"><a href="https://projetoextensaoc2.github.io/projeto/biologia/" class="menu-link"><span class="text-wrap">Biologia</span></a></li>		<li id="menu-item-1365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1365"><a href="https://projetoextensaoc2.github.io/projeto/eletronica/" class="menu-link"><span class="text-wrap">Eletrônica</span></a></li>		<li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://projetoextensaoc2.github.io/projeto/eletrica/" class="menu-link"><span class="text-wrap">Elétrica</span></a></li>	</ul>
+</li></ul>
+</li><li id="menu-item-438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-438"><a href="#" class="menu-link"><span class="text-wrap">Minicursos<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="https://projetoextensaoc2.github.io/projeto/geogebra/" class="menu-link"><span class="text-wrap">GeoGebra</span></a></li>	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="https://projetoextensaoc2.github.io/projeto/matlab/" class="menu-link"><span class="text-wrap">MATLAB</span></a></li></ul>
+</li><li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-103"><a href="https://projetoextensaoc2.github.io/projeto/contribuicoes-externas/" class="menu-link"><span class="text-wrap">Contribuições Externas<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2036" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-2036"><a href="#" class="menu-link"><span class="text-wrap">Prof. Fernando Grings<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-2049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2049"><a href="https://projetoextensaoc2.github.io/projeto/sequencias-e-series/" class="menu-link"><span class="text-wrap">Sequências e Séries</span></a></li>	</ul>
+</li>	<li id="menu-item-2087" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-2087"><a href="#" class="menu-link"><span class="text-wrap">Prof. 2<i class="nav-arrow fa fa-angle-right" aria-hidden="true" role="img"></i></span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-2086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2086"><a href="https://projetoextensaoc2.github.io/projeto/edo-de-1a-ordem/" class="menu-link"><span class="text-wrap">EDO de 1ª Ordem</span></a></li>	</ul>
+</li></ul>
+</li><li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="https://projetoextensaoc2.github.io/projeto/mural-de-avisos/" class="menu-link"><span class="text-wrap">Mural de avisos</span></a></li><li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="https://projetoextensaoc2.github.io/projeto/suporte/" class="menu-link"><span class="text-wrap">Suporte</span></a></li><li class="search-toggle-li"><a href="javascript:void(0)" class="site-search-toggle search-dropdown-toggle" aria-label="Search website"><i class=" icon-magnifier" aria-hidden="true" role="img"></i></a></li></ul>
+<div id="searchform-dropdown" class="header-searchform-wrap clr">
+	
+<form role="search" method="get" class="searchform" action="https://projetoextensaoc2.github.io/projeto/">
+	<label for="ocean-search-form-1">
+		<span class="screen-reader-text">Search this website</span>
+		<input type="search" id="ocean-search-form-1" class="field" autocomplete="off" placeholder="Pesquisa" name="s">
+			</label>
+	</form>
+</div>
+
+			</nav>
+
+			
+			
+					</div>
+			
+		
+	
+				
+	
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="javascript:void(0)" class="mobile-menu" aria-label="Menu Móvel">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+								<span class="oceanwp-text">Menu</span>
+				<span class="oceanwp-close-text">Fechar</span>
+						</a>
+
+		
+		
+		
+	</div>
+
+	
+
+
+			</div>
+
+			
+<div id="mobile-dropdown" class="clr">
+
+	<nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+		<ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-145"><a href="https://projetoextensaoc2.github.io/projeto/">Início</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-437"><a href="#">Conteúdos</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-439"><a href="#">Sequências</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-600"><a href="https://projetoextensaoc2.github.io/projeto/limite-e-convergencia-de-sequencia/">Limite e Convergência de sequência</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-599"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas/">Videoaulas</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-440"><a href="#">Séries</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-704"><a href="#">Principais Testes de Convergência</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"><a href="https://projetoextensaoc2.github.io/projeto/teste-do-n-esimo-termo/">Teste do N-ésimo Termo</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-643"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-integral/">Teste da Integral</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-642"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-comparacao/">Teste da Comparação</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-comparacao-do-limite/">Teste da Comparação do Limite</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-razao/">Teste da Razão</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-raiz/">Teste da Raiz</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-638"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-serie-alternada/">Teste da Série Alternada</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"><a href="https://projetoextensaoc2.github.io/projeto/teste-da-convergencia-absoluta/">Teste da Convergência Absoluta</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-705"><a href="#">Séries de Potência</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-650"><a href="https://projetoextensaoc2.github.io/projeto/serie-de-taylor-2/">Série de Taylor</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-651"><a href="https://projetoextensaoc2.github.io/projeto/serie-de-taylor/">Série de Maclaurin</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-611"><a href="https://projetoextensaoc2.github.io/projeto/resolucao-de-edo-por-serie/">Resolução de EDO por série</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-2/">Videoaulas</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-674"><a href="#">EDO 1ª Ordem</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-703"><a href="https://projetoextensaoc2.github.io/projeto/separaveis/">Separáveis</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-702"><a href="https://projetoextensaoc2.github.io/projeto/lineares/">Lineares</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="https://projetoextensaoc2.github.io/projeto/bernoulli/">Bernoulli</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://projetoextensaoc2.github.io/projeto/exata/">Exata</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://projetoextensaoc2.github.io/projeto/substituicao/">Substituição</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-698"><a href="https://projetoextensaoc2.github.io/projeto/y-gax-bx/">Y’ = G(Ax + Bx)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-4/">Videoaulas</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-673"><a href="#">EDO 2ª Ordem</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-675"><a href="#">Homogênea</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-666"><a href="https://projetoextensaoc2.github.io/projeto/resolucao-por-eq-caracteristica/">Resolução por Eq. Característica</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-665"><a href="https://projetoextensaoc2.github.io/projeto/wronskiano/">Wronskiano</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-676"><a href="#">Não Homogênea</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="https://projetoextensaoc2.github.io/projeto/coeficientes-indeterminados/">Coeficientes indeterminados</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679"><a href="https://projetoextensaoc2.github.io/projeto/variacao-de-parametros/">Variação de parâmetros</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-3/">Videoaulas</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1184"><a href="#">Transformada de Laplace</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1220"><a href="https://projetoextensaoc2.github.io/projeto/definicao-e-propriedades/">Definição e Propriedades</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1185"><a href="#">Transformada Inversa de Laplace</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1214"><a href="https://projetoextensaoc2.github.io/projeto/fracoes-parciais/">Frações Parciais</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1210"><a href="https://projetoextensaoc2.github.io/projeto/pvi/">PVI</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1207"><a href="https://projetoextensaoc2.github.io/projeto/funcoes-degrau-e-impulso/">Funções Degrau e Impulso</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1211"><a href="#">Funções Periódicas</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1208"><a href="https://projetoextensaoc2.github.io/projeto/funcao-janela/">Função Janela</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1205"><a href="https://projetoextensaoc2.github.io/projeto/delta-de-dirac/">Delta de Dirac</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1204"><a href="https://projetoextensaoc2.github.io/projeto/transformada-de-funcoes-periodicas/">Transformada de Funções Periódicas</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1203"><a href="https://projetoextensaoc2.github.io/projeto/convolucao/">Convolução</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1209"><a href="https://projetoextensaoc2.github.io/projeto/sistema-de-laplace/">Sistema de Laplace</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1219"><a href="https://projetoextensaoc2.github.io/projeto/videoaulas-5/">Videoaulas</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1362"><a href="#">Problemas Aplicados à Engenharia</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="https://projetoextensaoc2.github.io/projeto/mecanica/">Mecânica</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1363"><a href="https://projetoextensaoc2.github.io/projeto/biologia/">Biologia</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1365"><a href="https://projetoextensaoc2.github.io/projeto/eletronica/">Eletrônica</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://projetoextensaoc2.github.io/projeto/eletrica/">Elétrica</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-438"><a href="#">Minicursos</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262"><a href="https://projetoextensaoc2.github.io/projeto/geogebra/">GeoGebra</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="https://projetoextensaoc2.github.io/projeto/matlab/">MATLAB</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-103"><a href="https://projetoextensaoc2.github.io/projeto/contribuicoes-externas/">Contribuições Externas</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2036"><a href="#">Prof. Fernando Grings</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2049"><a href="https://projetoextensaoc2.github.io/projeto/sequencias-e-series/">Sequências e Séries</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2087"><a href="#">Prof. 2</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2086"><a href="https://projetoextensaoc2.github.io/projeto/edo-de-1a-ordem/">EDO de 1ª Ordem</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="https://projetoextensaoc2.github.io/projeto/mural-de-avisos/">Mural de avisos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="https://projetoextensaoc2.github.io/projeto/suporte/">Suporte</a></li>
+<li class="search-toggle-li"><a href="javascript:void(0)" class="site-search-toggle search-dropdown-toggle" aria-label="Search website"><i class=" icon-magnifier" aria-hidden="true" role="img"></i></a></li></ul>
+<div id="mobile-menu-search" class="clr">
+	<form aria-label="Search this website" method="get" action="https://projetoextensaoc2.github.io/projeto/" class="mobile-searchform" role="search">
+		<input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-2" type="search" name="s" autocomplete="off" placeholder="Pesquisa">
+		<button aria-label="Submit search" type="submit" class="searchform-submit">
+			<i class=" icon-magnifier" aria-hidden="true" role="img"></i>		</button>
+					</form>
+</div>
+
+	</nav>
+
+</div>
+
+			
+			
+		
+		
+</header>
+
+
+			
+			<main id="main" class="site-main clr" role="main">
+
+				
+
+<header class="page-header">
+
+	
+	<div class="container clr page-header-inner">
+
+		
+			<h1 class="page-header-title clr" itemprop="headline">EDO 2 ª ordem</h1>
+
+			
+		
+		<nav aria-label="Caminho de navegação" class="site-breadcrumbs clr position-" itemprop="breadcrumb"><ol class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2"><meta name="itemListOrder" content="Ascending"><li class="trail-item trail-begin" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://projetoextensaoc2.github.io/projeto" rel="home" aria-label="Início" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name"><i class=" icon-home" aria-hidden="true" role="img"></i><span class="breadcrumb-home has-icon">Início</span></span></a><span class="breadcrumb-sep">></span><meta content="1" itemprop="position"></li><li class="trail-item trail-end" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="https://projetoextensaoc2.github.io/projeto/edo-2-a-ordem/" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">EDO 2 ª ordem</span></a><meta content="2" itemprop="position"></li></ol></nav>
+	</div>
+
+	
+	
+</header>
+
+
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article class="single-page-article clr">
+
+	
+<div class="entry clr" itemprop="text">
+
+	
+	
+	
+</div>
+
+</article>
+
+				
+			</div>
+
+			
+		</div>
+
+		
+
+<aside id="right-sidebar" class="sidebar-container widget-area sidebar-primary" itemscope="itemscope" itemtype="https://schema.org/WPSideBar" role="complementary" aria-label="Primary Sidebar">
+
+	
+	<div id="right-sidebar-inner" class="clr">
+
+		<div id="search-2" class="sidebar-box widget_search clr">
+<form role="search" method="get" class="searchform" action="https://projetoextensaoc2.github.io/projeto/">
+	<label for="ocean-search-form-3">
+		<span class="screen-reader-text">Search this website</span>
+		<input type="search" id="ocean-search-form-3" class="field" autocomplete="off" placeholder="Pesquisa" name="s">
+			</label>
+	</form>
+</div>
+		<div id="recent-posts-2" class="sidebar-box widget_recent_entries clr">
+		<h4 class="widget-title">Posts recentes</h4>
+		<ul>
+											<li>
+					<a href="https://projetoextensaoc2.github.io/projeto/2021/08/15/sequencias-e-series/">Sequências e Séries</a>
+									</li>
+											<li>
+					<a href="https://projetoextensaoc2.github.io/projeto/2021/05/21/ola-mundo/">Olá, mundo!</a>
+									</li>
+					</ul>
+
+		</div><div id="recent-comments-2" class="sidebar-box widget_recent_comments clr"><h4 class="widget-title">Comentários</h4><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href="https://wordpress.org/" rel="external nofollow ugc" class="url">Um comentarista do WordPress</a></span> em <a href="https://projetoextensaoc2.github.io/projeto/2021/05/21/ola-mundo/#comment-1">Olá, mundo!</a></li></ul></div>
+	</div>
+
+	
+</aside>
+
+
+	</div>
+
+	
+
+	</main>
+
+	
+	
+	
+		
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+
+	
+	<div id="footer-inner" class="clr">
+
+		
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+					<div class="footer-box span_1_of_4 col col-1">
+							</div>
+
+							<div class="footer-box span_1_of_4 col col-2">
+									</div>
+				
+							<div class="footer-box span_1_of_4 col col-3 ">
+									</div>
+				
+							<div class="footer-box span_1_of_4 col col-4">
+									</div>
+				
+			
+	</div>
+
+	
+</div>
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				Copyright - OceanWP Theme by Nick			</div>
+
+			
+	</div>
+
+	
+</div>
+
+
+	</div>
+
+	
+</footer>
+
+	
+	
+</div>
+
+
+</div>
+
+
+
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+
+
+
+
+<script src="https://projetoextensaoc2.github.io/projeto/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/js/vendors/isotope.pkgd.min.js" id="isotop-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js" id="flickity-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/js/vendors/photoswipe.min.js" id="photoswipe-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/js/vendors/photoswipe-ui-default.min.js" id="photoswipe-ui-default-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/js/vendors/sidr.js" id="sidr-js"></script>
+<script id="oceanwp-main-js-extra">
+var oceanwpLocalize = {"nonce":"438563e338","isRTL":"","menuSearchStyle":"drop_down","mobileMenuSearchStyle":"disabled","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"https:\/\/projetoextensaoc2.github.io\/projeto\/wp-admin\/admin-ajax.php"};
+</script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/themes/oceanwp/assets/js/theme.vanilla.min.js" id="oceanwp-main-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+            resturl: 'https://projetoextensaoc2.github.io/projeto/wp-json/elementskit/v1/',
+        }
+
+		
+</script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js" id="ekit-widget-scripts-js"></script>
+<script src="https://projetoextensaoc2.github.io/projeto/wp-content/plugins/ocean-extra/includes/widgets/js/mailchimp.min.js" id="oe-mailchimp-script-js"></script>
+
+</body>
+</html>

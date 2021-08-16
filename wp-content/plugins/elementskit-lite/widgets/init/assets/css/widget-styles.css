@@ -431,7 +431,8 @@ div.twentytwenty-handle {height: 38px;width: 38px;position: absolute;left: 50%;t
 	.elementskit-navbar-nav-default .elementskit-megamenu-panel {-webkit-transform: translateY(-10px);transform: translateY(-10px);pointer-events: none;opacity: 0;visibility: hidden;-webkit-transition: all .4s ease;transition: all .4s ease;margin-left: 0;position: absolute;left: 0;top: 100%;display: block;}}
 @media (min-width:1025px) {.elementskit-navbar-nav-default .elementskit-megamenu-has:hover>.elementskit-megamenu-panel {opacity: 1;visibility: visible;-webkit-transform: translateY(0);transform: translateY(0);pointer-events: auto;}}
 .elementskit-navbar-nav-default .elementskit-megamenu-has .elementskit-dropdown {display: none;}
-@media (max-width:1024px) {.elementskit-navbar-nav-default.elementskit-menu-offcanvas-elements {background-color: #f7f7f7;width: 100%;position: fixed;top: 0;left: -110%;height: 100%;-webkit-box-shadow: 0 10px 30px 0 rgba(255,165,0,0);box-shadow: 0 10px 30px 0 rgba(255,165,0,0);overflow-y: auto;overflow-x: hidden;padding-top: 0;padding-left: 0;padding-right: 0;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;-webkit-transition: left .6s cubic-bezier(.6,.1,.68,.53);transition: left .6s cubic-bezier(.6,.1,.68,.53);}
+@media (max-width:1024px) {.ekit_menu_responsive_tablet>.elementskit-navbar-nav-default {background-color: #f7f7f7;}
+	.elementskit-navbar-nav-default.elementskit-menu-offcanvas-elements {width: 100%;position: fixed;top: 0;left: -110%;height: 100%;-webkit-box-shadow: 0 10px 30px 0 rgba(255,165,0,0);box-shadow: 0 10px 30px 0 rgba(255,165,0,0);overflow-y: auto;overflow-x: hidden;padding-top: 0;padding-left: 0;padding-right: 0;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: reverse;-ms-flex-direction: column-reverse;flex-direction: column-reverse;-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;-webkit-transition: left .6s cubic-bezier(.6,.1,.68,.53);transition: left .6s cubic-bezier(.6,.1,.68,.53);}
 	.elementskit-navbar-nav-default .no-scroller {overflow: hidden;}
 	.elementskit-navbar-nav-default .elementskit-nav-identity-panel {display: block;position: relative;z-index: 5;width: 100%;}
 	.elementskit-navbar-nav-default .elementskit-nav-identity-panel .elementskit-site-title {float: left;}
@@ -443,6 +444,7 @@ div.twentytwenty-handle {height: 38px;width: 38px;position: absolute;left: 50%;t
 	.elementskit-navbar-nav-default .elementskit-dropdown {display: block;border: 0;margin-left: 0;}
 	.elementskit-navbar-nav-default .elementskit-megamenu-panel {display: none;}
 	.elementskit-navbar-nav-default .elementskit-navbar-nav>.elementskit-dropdown-has>.elementskit-dropdown li a {padding-left: 15px;}}
+@media (max-width:767px) {.ekit_menu_responsive_mobile>.elementskit-navbar-nav-default {background-color: #f7f7f7;}}
 @media (min-width:1025px) {.elementskit-dropdown-has .elementskit-dropdown {-webkit-box-shadow: 0 10px 30px 0 rgba(45,45,45,.2);box-shadow: 0 10px 30px 0 rgba(45,45,45,.2);position: absolute;top: 100%;left: 0;-webkit-transform: translateY(-10px);transform: translateY(-10px);pointer-events: none;max-height: none;}
 	.elementskit-dropdown-has:hover>.elementskit-dropdown {opacity: 1;visibility: visible;-webkit-transform: translateY(0);transform: translateY(0);pointer-events: auto;}}
 @media only screen and (max-width:1023px) and (min-width:768px) {.ekit_menu_responsive_mobile .elementskit-navbar-nav-default .elementskit-dropdown-has:hover>.elementskit-dropdown, .ekit_menu_responsive_mobile .elementskit-navbar-nav-default .elementskit-dropdown-has:hover>.elementskit-megamenu-panel, .ekit_menu_responsive_tablet .elementskit-navbar-nav-default .elementskit-dropdown-has:hover>.elementskit-dropdown, .ekit_menu_responsive_tablet .elementskit-navbar-nav-default .elementskit-dropdown-has:hover>.elementskit-megamenu-panel {opacity: 1;visibility: visible;-webkit-transform: translateY(0);transform: translateY(0);pointer-events: auto;}}
@@ -1152,7 +1154,8 @@ a:hover>.a:hover\:met_scaley--200:hover {-webkit-transform: scaleY(2);transform:
 @media (max-width:1024px) {.ekit-wid-con .ekit-vertical-navbar-nav .elementskit-submenu-indicator {padding: 3px 10px;border: 1px solid;border-radius: 30px;}}
 .ekit-wid-con .xs-overlay {position: absolute;top: 0;left: 0;height: 100%;width: 100%;opacity: .5;z-index: 0;}
 .ekit-wid-con .form-control:focus {-webkit-box-shadow: none;box-shadow: none;}
-.ekit-wid-con .slick-list {-webkit-box-sizing: initial;box-sizing: initial;padding: 25px 0;}
+.ekit-wid-con .slick-list {-webkit-box-sizing: initial;box-sizing: initial;padding: 25px 0;display: -webkit-box !important;display: -ms-flexbox !important;display: flex !important;}
+.ekit-wid-con .swiper-container {width: inherit;height: inherit;}
 .ekit-wid-con .tab-pane.animated {-webkit-animation-duration: 1.5s;animation-duration: 1.5s;}
 .ekit-wid-con .mfp-iframe-scaler iframe {-webkit-box-shadow: none;box-shadow: none;background: 0 0;}
 .ekit-wid-con img {-webkit-user-select: none;-moz-user-select: none;-o-user-select: none;-ms-user-select: none;user-select: none;}
@@ -1166,6 +1169,8 @@ a:hover>.a:hover\:met_scaley--200:hover {-webkit-transform: scaleY(2);transform:
 .ekit-wid-con button {cursor: pointer;-webkit-transition: all .4s ease;transition: all .4s ease;}
 .ekit-wid-con .form-control {-webkit-transition: all .4s ease;transition: all .4s ease;}
 .ekit-wid-con input {-webkit-box-sizing: border-box;box-sizing: border-box;}
+.ekit-wid-con .widgetarea_warper_edit {display: none;}
+.ekit-wid-con .swiper-pagination-bullet {opacity: inherit;background-color: inherit;}
 #wp-admin-bar-elementor_edit_page-default:empty {display: none;}
 .elementor-widget-elementskit-pricing .elementor-widget-container {overflow: hidden;}
 .elementor-widget-elementskit-timeline .elementor-widget-container {padding-top: 35px;padding-left: 45px;padding-right: 45px;padding-bottom: 60px;}
@@ -2703,7 +2708,8 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {margin-top: 45px;}
 .ekit-wid-con .icon-outline {width: 40px;height: 40px;line-height: 40px;display: inline-block;color: #000;text-align: center;border: 1px solid currentColor;}
 .ekit-wid-con .icon-outline.circle {border-radius: 50%;}
 .ekit-image-accordion--btn {font-weight: 400;}
-.ekit-wid-con .elementskit-clients-slider .slick-slide {margin-right: 15px;margin-left: 15px;}
+.ekit-wid-con .elementskit-clients-slider .slick-list {overflow: visible;margin-bottom: -26px;}
+.ekit-wid-con .elementskit-clients-slider .slick-slide {margin-right: 15px;margin-left: 15px;display: block;float: inherit;height: inherit;min-height: inherit;}
 .ekit-wid-con .elementskit-clients-slider .slick-slide>div:not(:last-child) {margin-bottom: 30px;}
 .ekit-wid-con .elementskit-clients-slider .elementskit-client-slider-item.log-separator {position: relative;}
 .ekit-wid-con .elementskit-clients-slider .elementskit-client-slider-item.log-separator::after {content: "";background: #e7e7e7;position: absolute;z-index: 999;-webkit-transform: translateY(-50%);transform: translateY(-50%);}
@@ -3209,6 +3215,8 @@ body.admin-bar .ekit-promo-popup.mfp-ready .mfp-close {margin-top: 45px;}
 .ekit-wid-con .elementskit-profile-image-card::before {position: absolute;content: "";top: 100%;left: 0;height: 100%;width: 100%;-webkit-transition: all .4s ease;transition: all .4s ease;pointer-events: none;}
 .ekit-wid-con .elementskit-profile-image-card>img {width: 100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
 .ekit-wid-con .elementskit-profile-image-card:hover::before {background-color: rgba(17,17,17,.8);top: 0;}
+.ekit-wid-con .elementskit-testimonial-slider .slick-slide {display: block;float: inherit;height: inherit;min-height: inherit;}
+.ekit-wid-con .elementskit-testimonial-slider .slick-list {overflow: visible;}
 .ekit-wid-con .elementskit-testimonial-slider .slick-dots li {margin: 0;width: auto;height: auto;}
 .ekit-wid-con .elementskit-testimonial-slider .slick-dots li button {padding: 0;margin: 0;}
 .ekit-wid-con .elementskit-testimonial-slider .slick-dots li button::before {display: none;}
